@@ -1,8 +1,8 @@
 # 오디오 비트, 채널 변경
 from pydub import AudioSegment
 
-input_file = "/users/jjong/desktop/test/tiny riot.wav"
-output_file = "/users/jjong/desktop/test/tiny riot2.wav"
+input_file = "/users/desktop/test/tiny riot.wav"
+output_file = "/users/desktop/test/tiny riot2.wav"
 
 # 오디오 파일 불러오기
 audio = AudioSegment.from_file(input_file, format="wav")
