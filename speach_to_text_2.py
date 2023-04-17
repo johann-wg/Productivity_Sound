@@ -22,7 +22,7 @@ def speech_to_text(audio_file):
         print("구글 서비스에 접속할 수 없습니다. {0}".format(e))
 
 # 예시: 폴더 안에 있는 모든 음성 파일을 텍스트 파일로 변환하기
-folder_path = "/Users/jjong/desktop/test2"
+folder_path = "/Users/desktop/test2"
 for filename in os.listdir(folder_path):
     if filename.endswith(".wav"):
         audio_file = os.path.join(folder_path, filename)
