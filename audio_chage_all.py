@@ -3,9 +3,9 @@ from pydub import AudioSegment
 import os
 
 # 원본 파일이 있는 폴더
-a_folder = '/Users/jjong/desktop/test/'
+a_folder = '/Users/desktop/test/'
 # 저장할 폴더
-b_folder = '/Users/jjong/desktop/'
+b_folder = '/Users/desktop/'
 
 for file in os.listdir(a_folder):
     if file.endswith('.wav'):
