@@ -2,8 +2,8 @@
 from pydub import AudioSegment
 import os
 
-a_folder = '/Users/jjong/desktop/test'
-b_folder = '/Users/jjong/desktop'
+a_folder = '/Users/desktop/test'
+b_folder = '/Users/desktop'
 file_name = 'tiny riot.wav'
 
 wav_file = os.path.join(a_folder, file_name)
