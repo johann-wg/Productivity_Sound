@@ -2,8 +2,8 @@
 
 import moviepy.editor as mp
 
-video = mp.VideoFileClip("/users/jjong/desktop/test.mp4")
+video = mp.VideoFileClip("/users/desktop/test.mp4")
 
 audio = video.audio
 
-audio.write_audiofile("/users/jjong/desktop/audio.mp3")
+audio.write_audiofile("/users/desktop/audio.mp3")
